@@ -8,7 +8,7 @@ body
 #header
 {
   height: 100vh;
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(img/background.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(img/background1.jpg);
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
@@ -60,4 +60,61 @@ body
 {
   0%{transform: translateY(0);}
   100%{transform: translateY(10px);}
+}
+/*----------About----------*/
+.about
+{
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+.profile-img
+{
+  height: 400px;
+}
+.nav-bar
+{
+  top: 0;
+  position: sticky;
+  z-index: 2;
+}
+.navbar
+{
+  background-color: #000000;
+}
+.navbar-brand img
+{
+  height: 35px;
+}
+.nav-bar .fa-bars
+{
+  font-size: 35px;
+  color: #ffffff;
+}
+.navbar-toggler
+{
+  outline: none !important;
+}
+.navbar-nav
+{
+  float: right;
+  text-align: right;
+}
+.nav-link
+{
+  color: #ffffff !important;
+}
+.skills-bar p
+{
+  margin-bottom: 6px;
+  font-weight: 600;
+}
+.progress
+{
+  border-radius: 16px !important;
+  margin-bottom: 10px;
+}
+.progress-bar
+{
+  border-radius: 16px;
+  background-color: #000000 !important;
 }
