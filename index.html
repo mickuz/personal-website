@@ -24,7 +24,7 @@
         </div>
       </div>
       <div class="scroll-btn">
-        <div class="scroll-bar"><a href=""><span></span></a></div>
+        <div class="scroll-bar"><a href="#about"><span></span></a></div>
       </div>
     </section>
     <!----------User-Info Section---------->
@@ -38,19 +38,19 @@
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ml-auto">
               <li class="nav-item">
-                <a class="nav-link" href="#">HOME</a>
+                <a class="nav-link" href="#top">HOME</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">ABOUT ME</a>
+                <a class="nav-link" href="#about">ABOUT ME</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">RESUME</a>
+                <a class="nav-link" href="#resume">RESUME</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">SERVICES</a>
+                <a class="nav-link" href="#services">SERVICES</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">CONTACT</a>
+                <a class="nav-link" href="#contact">CONTACT</a>
               </li>
             </ul>
           </div>
@@ -85,6 +85,16 @@
             </div>
           </div>
         </div>
+      </div>
+      <!----------Social Media---------->
+      <div class="social-icons">
+        <ul>
+          <a href="#"><li><i class="fa fa-linkedin"></i></li></a>
+          <a href="#"><li><i class="fa fa-twitter"></i></li></a>
+          <a href="#"><li><i class="fa fa-medium"></i></li></a>
+          <a href="#"><li><i class="fa fa-github"></i></li></a>
+          <a href="#"><li><i class="fa fa-instagram"></i></li></a>
+        </ul>
       </div>
       <!----------Resume---------->
       <div class="resume" id="resume">
@@ -158,6 +168,36 @@
         </div>
       </div>
       <!----------Contact---------->
+      <div class="contact" id="contact">
+        <div class="container text-center">
+          <h1>Contact Me</h1>
+          <p class="text-center">Send me a message</p>
+          <div class="row">
+            <div class="col-md-4">
+              <i class="fa fa-phone"></i>
+              <p>+48123456789</p>
+            </div>
+            <div class="col-md-4">
+              <i class="fa fa-envelope"></i>
+              <p>user@gmail.com</p>
+            </div>
+            <div class="col-md-4">
+              <i class="fa fa-internet-explorer"></i>
+              <p>www.address.com</p>
+            </div>
+          </div>
+          <button type="button" class="btn btn-primary"><i class="fa fa-download"></i>Resume</button>
+          <button type="button" class="btn btn-primary"><i class="fa fa-rocket"></i>Hire me</button>
+        </div>
+        <div class="footer text-center">
+          <p>Made with <i class="fa fa-heart-o"></i> by Michał Kuźniewicz</p>
+        </div>
+      </div>
     </section>
+    <!----------Smooth scroll---------->
+    <script src="smooth-scroll.js"></script>
+    <script>
+	     var scroll = new SmoothScroll('a[href*="#"]');
+    </script>
   </body>
 </html>
